@@ -5,7 +5,7 @@
 /dev/sec-nfc                                          u:object_r:nfc_device:s0
 /dev/gnss_ipc                                         u:object_r:vendor_gnss_device:s0
 /dev/block/zram0                                      u:object_r:vendor_zram_block_device:s0
-
+/dev/block/platform/.+/by-name/PRELOAD                u:object_r:misc_block_device:s0
 /cpefs(/.*)?                                          u:object_r:efs_file:s0
 
 /data/vendor/yas_lib(/.*)?                            u:object_r:vendor_sensors_data_file:s0
