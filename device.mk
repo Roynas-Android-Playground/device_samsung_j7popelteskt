@@ -71,7 +71,8 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.1.vendor
+    android.hardware.gnss@1.1.vendor \
+    libgpsd_shim
 
 # Graphics
 PRODUCT_PACKAGES += \
