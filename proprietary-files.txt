@@ -202,7 +202,6 @@ lib/libhdmi.so:vendor/lib/libhdmi.so
 lib/libhwcutils.so:vendor/lib/libhwcutils.so
 lib/libvirtualdisplay.so:vendor/lib/libvirtualdisplay.so
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/hw/vulkan.exynos5.so
 vendor/lib/libcsc.so
 vendor/lib/libexynosutils.so
 vendor/lib/libexynosv4l2.so
