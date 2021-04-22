@@ -31,6 +31,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
+BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/configs/bluetooth/libbt_vndcfg.txt
 
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := universal7870
