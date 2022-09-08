@@ -33,6 +33,8 @@ on post-fs-data
 # Log data folder
 #   mkdir /data/log 0771 radio system
 
+    mkdir /data/vendor/gatekeeper 0770 system system
+
     setprop vold.post_fs_data_done 1
 
 # Magnetic sensor YAS537 lib
