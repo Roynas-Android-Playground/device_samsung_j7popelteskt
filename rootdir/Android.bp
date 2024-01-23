@@ -1,0 +1,26 @@
+prebuilt_etc {
+    name: "fstab.samsungexynos7870",
+    src: "fstab.samsungexynos7870",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.baseband.rc",
+    src: "init.baseband.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.samsungexynos7870.rc",
+    src: "init.samsungexynos7870.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.samsungexynos7870.usb.rc",
+    src: "init.samsungexynos7870.usb.rc",
+    sub_dir: "init",
+    vendor: true,
+}
