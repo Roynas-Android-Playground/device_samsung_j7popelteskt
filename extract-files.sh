@@ -58,6 +58,9 @@ function blob_fixup() {
         vendor/bin/hw/gpsd)
             "${PATCHELF}" --add-needed "libgpsd_shim.so" "${2}"
             ;;
+	lib/libExynosOMX_Core.so)
+	    sed -i 's|system/lib/omx|vendor/lib/omx|' "${2}"
+	    ;;
     esac
 }
 
