@@ -1,0 +1,5 @@
+binder_call(hal_vendor_radio_configsvc_client, hal_vendor_radio_configsvc_server)
+binder_call(hal_vendor_radio_configsvc_server, hal_vendor_radio_configsvc_client)
+
+add_hwservice(hal_vendor_radio_configsvc_server, hal_vendor_radio_configsvc_hwservice)
+allow hal_vendor_radio_configsvc_client hal_vendor_radio_configsvc_hwservice:hwservice_manager find;

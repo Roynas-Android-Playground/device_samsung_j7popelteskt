@@ -1,0 +1,9 @@
+/dev/mali0                                            u:object_r:gpu_device:s0
+/dev/s5p-smem                                         u:object_r:s5p_smem_device:s0
+
+/cpefs(/.*)?                                          u:object_r:efs_file:s0
+
+/data/camera(/.*)?                                    u:object_r:camera_data_file:s0
+/data/system/yas_lib(/.*)?                            u:object_r:sensors_data_file:s0
+
+(/system)?/vendor/bin/hw/vendor\.samsung\.hardware\.radio\.configsvc@1\.0-service      u:object_r:hal_vendor_radio_configsvc_default_exec:s0

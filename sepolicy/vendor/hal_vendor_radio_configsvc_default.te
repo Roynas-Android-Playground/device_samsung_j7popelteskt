@@ -1,0 +1,5 @@
+type hal_vendor_radio_configsvc_default, domain;
+type hal_vendor_radio_configsvc_default_exec, exec_type, file_type, vendor_file_type;
+
+hal_server_domain(hal_vendor_radio_configsvc_default, hal_vendor_radio_configsvc)
+init_daemon_domain(hal_vendor_radio_configsvc_default)

@@ -1,0 +1,1 @@
+type hal_vendor_radio_configsvc_hwservice, hwservice_manager_type;

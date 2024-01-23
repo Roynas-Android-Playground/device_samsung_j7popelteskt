@@ -1,0 +1,3 @@
+attribute hal_vendor_radio_configsvc;
+attribute hal_vendor_radio_configsvc_client;
+attribute hal_vendor_radio_configsvc_server;

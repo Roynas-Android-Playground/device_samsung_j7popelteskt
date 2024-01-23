@@ -1,0 +1,6 @@
+vendor.samsung.hardware.gnss::ISecGnss                  u:object_r:hal_gnss_hwservice:s0
+vendor.samsung.hardware.radio::IRadio                   u:object_r:hal_telephony_hwservice:s0
+vendor.samsung.hardware.radio.configsvc::IConfigSvc     u:object_r:hal_vendor_radio_configsvc_hwservice:s0
+vendor.samsung.hardware.radio.channel::ISecChannel      u:object_r:hal_telephony_hwservice:s0
+vendor.samsung.hardware.radio.secbridge::ISecBridge     u:object_r:hal_telephony_hwservice:s0
+vendor.samsung.hardware.radio.sechook::IOemHook         u:object_r:hal_telephony_hwservice:s0

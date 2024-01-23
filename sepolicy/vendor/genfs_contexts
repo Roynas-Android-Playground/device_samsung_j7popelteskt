@@ -1,0 +1,5 @@
+genfscon sysfs /devices/14830000.decon_fb                   u:object_r:sysfs_graphics:s0
+genfscon sysfs /devices/virtual/camera                      u:object_r:sysfs_camera:s0
+genfscon sysfs /devices/battery/power_supply                u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/13870000.i2c/i2c-6/6-0049/sm5703-charger/power_supply  u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /firmware/devicetree/base/model_info-system_rev                 u:object_r:sysfs_model_info:s0

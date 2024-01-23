@@ -1,0 +1,1 @@
+allow macloader self:capability { net_raw chown fowner };

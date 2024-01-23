@@ -1,0 +1,5 @@
+type sysfs_camera, fs_type, sysfs_type;
+type sysfs_graphics, fs_type, sysfs_type;
+type sysfs_model_info, fs_type, sysfs_type;
+
+type sensors_data_file, file_type, data_file_type, core_data_file_type;
