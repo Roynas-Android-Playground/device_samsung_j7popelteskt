@@ -12,6 +12,13 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 # Debug-tools
 $(call inherit-product, hardware/samsung-ext/interfaces/debug-tools/debug.mk)
 
+# Force using the following regardless of shipping API level:
+#   PRODUCT_TREBLE_LINKER_NAMESPACES
+#   PRODUCT_SEPOLICY_SPLIT
+#   PRODUCT_ENFORCE_VINTF_MANIFEST
+#   PRODUCT_NOTICE_SPLIT
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 24
 
