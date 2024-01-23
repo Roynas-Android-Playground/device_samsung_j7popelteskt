@@ -9,6 +9,9 @@ LOCAL_PATH := device/samsung/j7popelteskt
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 24
+
 # Rootdir
 PRODUCT_PACKAGES += \
    fstab.samsungexynos7870 \
