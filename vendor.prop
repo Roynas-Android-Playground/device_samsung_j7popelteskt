@@ -1,0 +1,19 @@
+ro.arch=exynos7870
+
+# RIL
+exynos.ril.modempath=/dev/block/mmcblk0p5
+exynos.ril.nvpath=/efs/
+persist.radio.multisim.config=ss
+
+# RILD
+rild.libpath=/system/lib64/libsec-ril.so
+rild.libargs=-d /dev/umts_ipc0
+vendor.sec.rild.libpath=/vendor/lib/libsec-ril.so
+
+# GPU WFD support
+ro.vendor.wfdsupport=1
+#Enable CSC for vendor image
+ro.vendor.cscsupported=1
+
+# OpenGLES
+ro.opengles.version=196610

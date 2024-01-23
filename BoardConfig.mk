@@ -63,6 +63,12 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 # SPL
 VENDOR_SECURITY_PATCH := 2021-04-01
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+
+# Props
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Sepolicy
 BOARD_SEPOLICY_TEE_FLAVOR := mobicore
 include device/samsung_slsi/sepolicy/sepolicy.mk
