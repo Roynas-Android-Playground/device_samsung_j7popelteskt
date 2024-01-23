@@ -56,3 +56,8 @@ BOARD_ROOT_EXTRA_FOLDERS := efs cpefs
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
+# Sepolicy
+BOARD_SEPOLICY_TEE_FLAVOR := mobicore
+include device/samsung_slsi/sepolicy/sepolicy.mk
+include hardware/samsung-ext/interfaces/sepolicy/SEPolicy.mk
