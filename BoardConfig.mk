@@ -17,6 +17,9 @@ TARGET_CPU_VARIANT := cortex-a53
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
+# Bluetooth
+BOARD_HAVE_BLUETOOTH_BCM := true
+
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := universal7870
 TARGET_BOARD_PLATFORM := exynos5
@@ -57,6 +60,9 @@ BOARD_ROOT_EXTRA_FOLDERS := efs cpefs
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
+# SPL
+VENDOR_SECURITY_PATCH := 2021-04-01
+
 # Sepolicy
 BOARD_SEPOLICY_TEE_FLAVOR := mobicore
 include device/samsung_slsi/sepolicy/sepolicy.mk
@@ -70,3 +76,5 @@ BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
 BOARD_HOSTAPD_DRIVER             := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB        := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
+
+include vendor/samsung/j7popelteskt/BoardConfigVendor.mk
