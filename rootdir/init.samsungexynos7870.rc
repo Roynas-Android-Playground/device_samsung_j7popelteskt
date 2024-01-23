@@ -27,6 +27,8 @@ on init
     symlink /dev/block/platform/13540000.dwmmc0/by-name/PERSISTENT /dev/block/persistent
     symlink /dev/block/platform/13540000.dwmmc0/by-name/STEADY /dev/block/steady
 
+    mount_all /system/vendor/etc/fstab.samsungexynos7870
+
 on post-fs-data
 # Log data folder
 #   mkdir /data/log 0771 radio system
@@ -633,7 +635,6 @@ on boot
     chmod 0775 /dev/socket
 
 on fs
-    mount_all /fstab.samsungexynos7870
     setprop ro.crypto.fuse_sdcard true
     chown radio system /efs
 
