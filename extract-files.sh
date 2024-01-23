@@ -61,6 +61,9 @@ function blob_fixup() {
 	lib/libExynosOMX_Core.so)
 	    sed -i 's|system/lib/omx|vendor/lib/omx|' "${2}"
 	    ;;
+	vendor/lib/mediadrm/libwvdrmengine.so|vendor/lib/libwvhidl.so)
+	    "${PATCHELF}" --replace-needed libprotobuf-cpp-lite.so libprotobuf-cpp-lite-v29.so "${2}"
+	    ;;
     esac
 }
 
