@@ -69,7 +69,6 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.1.vendor \
     libgpsd_shim
 
 # Graphics
@@ -180,8 +179,8 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2.vendor \
-    android.hardware.radio.deprecated@1.0.vendor
+    android.hardware.radio@1.2 \
+    android.hardware.radio.deprecated@1.0
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
