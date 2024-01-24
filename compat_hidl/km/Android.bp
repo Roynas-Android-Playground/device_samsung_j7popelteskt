@@ -1,0 +1,18 @@
+cc_binary {
+    name: "android.hardware.keymaster@3.0-service-compat",
+    defaults: ["hidl_defaults"],
+    init_rc: ["android.hardware.keymaster@3.0-service-compat.rc"],
+    vendor: true,
+    compile_multilib: "32",
+    srcs: ["service.cpp"],
+    shared_libs: [
+      "liblog",
+      "libcutils"
+      "libdl",
+      "libbase",
+      "libutils",
+      "libhardware",
+      "libhidlbase",
+      "android.hardware.keymaster@3.0",
+    ]
+}

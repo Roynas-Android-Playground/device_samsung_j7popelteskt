@@ -64,8 +64,8 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-impl \
-    android.hardware.gatekeeper@1.0-service
+    android.hardware.gatekeeper@1.0-impl:32 \
+    android.hardware.gatekeeper@1.0-service-compat
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.1-service \
+    android.hardware.graphics.composer@2.1-service-compat \
     android.hardware.graphics.mapper@2.0-impl \
     libgui_vendor
 
@@ -102,8 +102,8 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@3.0-service \
-    android.hardware.keymaster@3.0-impl
+    android.hardware.keymaster@3.0-service-compat \
+    android.hardware.keymaster@3.0-impl:32
 
 # Light
 PRODUCT_PACKAGES += \
@@ -121,8 +121,8 @@ PRODUCT_PACKAGES += \
 
 # Memtrack
 PRODUCT_PACKAGES += \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service
+    android.hardware.memtrack@1.0-impl:32 \
+    android.hardware.memtrack@1.0-service-compat
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -192,8 +192,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl.samsung \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-impl.samsung:32 \
+    android.hardware.sensors@1.0-service-compat
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
