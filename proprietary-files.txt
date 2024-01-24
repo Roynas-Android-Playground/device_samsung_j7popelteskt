@@ -244,6 +244,15 @@ vendor/lib/hw/memtrack.universal7870.so
 lib/libExynosOMX_Core.so:vendor/lib/libExynosOMX_Core.so
 lib/libExynosOMX_Resourcemanager.so:vendor/lib/libExynosOMX_Resourcemanager.so
 lib/libstagefrighthw.so:vendor/lib/libstagefrighthw.so
+lib/omx/libOMX.Exynos.AVC.Decoder.so:vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
+lib/omx/libOMX.Exynos.AVC.Encoder.so:vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
+lib/omx/libOMX.Exynos.HEVC.Decoder.so:vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so
+lib/omx/libOMX.Exynos.HEVC.Encoder.so:vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so
+lib/omx/libOMX.Exynos.MPEG4.Decoder.so:vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so
+lib/omx/libOMX.Exynos.MPEG4.Encoder.so:vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+lib/omx/libOMX.Exynos.VP8.Decoder.so:vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so
+lib/omx/libOMX.Exynos.VP8.Encoder.so:vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so
+lib/omx/libOMX.Exynos.WMV.Decoder.so:vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
 
 # RIL
 vendor/bin/hw/rild
