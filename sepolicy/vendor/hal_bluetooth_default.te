@@ -1,1 +1,2 @@
 rw_file_recursive(hal_bluetooth_default, sysfs_rfkill)
+r_file_recursive(hal_bluetooth_default, vendor_firmware_file)
