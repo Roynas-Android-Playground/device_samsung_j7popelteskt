@@ -11,6 +11,7 @@ lib/libpreprocessing_nxp.so:vendor/lib/libpreprocessing_nxp.so
 lib/librecordalive.so:vendor/lib/librecordalive.so
 lib/libsamsungDiamondVoice.so:vendor/lib/libsamsungDiamondVoice.so
 lib/libsecaudioinfo.so:vendor/lib/libsecaudioinfo.so
+lib/libtinyalsa.so:vendor/lib/libtinyalsa.so
 vendor/lib/libLifevibes_lvverx.so
 vendor/lib/libLifevibes_lvvetx.so
 vendor/lib/lib_SoundAlive_SRC384_ver320.so
