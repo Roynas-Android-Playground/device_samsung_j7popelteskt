@@ -9,3 +9,11 @@
 
 (/system)?/vendor/bin/hw/vendor\.samsung\.hardware\.radio\.configsvc@1\.0-service      u:object_r:hal_vendor_radio_configsvc_default_exec:s0
 (/system)?/vendor/bin/hw/android\.hardware\.camera\.provider@2\.5-service\.samsung     u:object_r:hal_camera_default_exec:s0
+
+# Compat
+(/system)?/vendor/bin/hw/android\.hardware\.gatekeeper@1\.0-service-compat             u:object_r:hal_gatekeeper_default_exec:s0
+(/system)?/vendor/bin/hw/android\.hardware\.graphics\.allocator@2\.0-service-compat     u:object_r:hal_graphics_allocator_default_exec:s0
+(/system)?/vendor/bin/hw/android\.hardware\.graphics\.composer@2\.1-service-compat     u:object_r:hal_graphics_composer_default_exec:s0
+(/system)?/vendor/bin/hw/android\.hardware\.keymaster@3\.0-service-compat              u:object_r:hal_keymaster_default_exec:s0
+(/system)?/vendor/bin/hw/android.hardware.memtrack@1.0-service-compat                  u:object_r:hal_memtrack_default_exec:s0
+(/system)?/vendor/bin/hw/android.hardware.sensors@1.0-service-compat                   u:object_r:hal_sensors_default_exec:s0
