@@ -1,5 +1,12 @@
+# debugfs types
+type debugfs_mali, fs_type, debugfs_type;
+type debugfs_mali_mem, fs_type, debugfs_type;
+type debugfs_ion, fs_type, debugfs_type;
+type debugfs_ion_dma, fs_type, debugfs_type;
+
 type sysfs_camera, fs_type, sysfs_type;
 type sysfs_graphics, fs_type, sysfs_type;
 type sysfs_model_info, fs_type, sysfs_type;
+type sysfs_rfkill, fs_type, sysfs_type;
 
 type sensors_data_file, file_type, data_file_type, core_data_file_type;

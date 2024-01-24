@@ -1,0 +1,2 @@
+get_prop(hal_audio_default, vendor_radio_prop)
+allow hal_audio_default imei_efs_file:file r_file_perms;

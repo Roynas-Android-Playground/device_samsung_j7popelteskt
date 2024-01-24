@@ -1,0 +1,2 @@
+allow { domain -appdomain } system_data_root_file:dir read;
+allow domain { debugfs_ion debugfs_mali debugfs_mali_mem }:dir search;
