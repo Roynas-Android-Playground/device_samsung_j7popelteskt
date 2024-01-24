@@ -1,6 +1,7 @@
 ## All blobs are from J727SKSU5CUD2, unless pinned
 
 # Audio
+etc/mixer_paths.xml:vendor/etc/mixer_paths.xml
 lib/hw/audio.primary.universal7870.so:vendor/lib/hw/audio.primary.universal7870.so
 lib/libSamsungPostProcessConvertor.so:vendor/lib/libSamsungPostProcessConvertor.so
 lib/lib_SamsungRec_06002.so:vendor/lib/lib_SamsungRec_06002.so
@@ -200,15 +201,15 @@ lib/libexynosscaler.so:vendor/lib/libexynosscaler.so
 lib/libhdmi.so:vendor/lib/libhdmi.so
 lib/libhwcutils.so:vendor/lib/libhwcutils.so
 lib/libvirtualdisplay.so:vendor/lib/libvirtualdisplay.so
+vendor/lib/egl/libGLES_mali.so
+vendor/lib/hw/vulkan.exynos5.so
 vendor/lib/libcsc.so
 vendor/lib/libexynosutils.so
 vendor/lib/libexynosv4l2.so
+vendor/lib/libhwc2on1adapter.so
+vendor/lib/libhwc2onfbadapter.so
 vendor/lib/libion_exynos.so
 vendor/lib/libmpp.so
-
-# EGL
-vendor/lib/egl/libGLES_mali.so
-vendor/lib/hw/vulkan.exynos5.so
 
 # GPS
 lib/vendor.samsung.hardware.gnss@1.0.so:vendor/lib/vendor.samsung.hardware.gnss@1.0.so
