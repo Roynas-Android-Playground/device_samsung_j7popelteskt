@@ -172,6 +172,9 @@ vendor/etc/nxp/voiceexperience/LVVEFS_Tx_Configuration.txt
 vendor/etc/nxp/AzControlParams_SPEAKER.txt
 vendor/etc/nxp/LVAZFS_Configuration.txt
 
+# BT
+vendor/lib/libbt-vendor.so
+
 # Camera
 lib/hw/camera.exynos7870.so:vendor/lib/hw/camera.exynos7870.so
 lib/libexynoscamera.so:vendor/lib/libexynoscamera.so
