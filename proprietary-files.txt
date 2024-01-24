@@ -331,3 +331,4 @@ vendor/etc/wifi/indoorchannel.info
 vendor/etc/wifi/nvram.txt
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
+vendor/lib/libwifi-hal.so
