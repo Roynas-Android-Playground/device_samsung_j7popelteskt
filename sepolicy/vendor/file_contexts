@@ -8,3 +8,4 @@
 /data/system/yas_lib(/.*)?                            u:object_r:sensors_data_file:s0
 
 (/system)?/vendor/bin/hw/vendor\.samsung\.hardware\.radio\.configsvc@1\.0-service      u:object_r:hal_vendor_radio_configsvc_default_exec:s0
+(/system)?/vendor/bin/hw/android\.hardware\.camera\.provider@2\.5-service\.samsung     u:object_r:hal_camera_default_exec:s0
