@@ -67,6 +67,8 @@ function blob_fixup() {
 	vendor/lib/libsec-ril.so)
 	    "${PATCHELF}" --replace-needed libprotobuf-cpp-full.so libprotobuf-cpp-full-v29.so "${2}"
 	    "${PATCHELF}" --add-needed libcutils_shim.so "${2}"
+	    "${PATCHELF}" --replace-needed libsqlite.so libsqlite-v29.so "${2}"
+	    "${PATCHELF}" --replace-needed libxml2.so libxml2-v29.so "${2}"
 	    ;;
 	lib/libaudioroute.so)
 	    sed -i 's/system/vendor/' "${2}"
@@ -79,6 +81,10 @@ function blob_fixup() {
 	    "${PATCHELF}" --remove-needed libcamera_client.so "$2"
 	    "${PATCHELF}" --remove-needed libgui.so "$2"
             ;;
+	lib/libsensorlistener.so)
+	    "${PATCHELF}" --remove-needed libandroid.so "$2"
+	    "${PATCHELF}" --add-needed libsensorndkbridge.so "$2"
+	    ;;
     esac
 }
 
