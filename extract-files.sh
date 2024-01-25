@@ -66,6 +66,7 @@ function blob_fixup() {
 	    ;;
 	vendor/lib/libsec-ril.so)
 	    "${PATCHELF}" --replace-needed libprotobuf-cpp-full.so libprotobuf-cpp-full-v29.so "${2}"
+	    "${PATCHELF}" --add-needed libcutils_shim.so "${2}"
 	    ;;
 	lib/libaudioroute.so)
 	    sed -i 's/system/vendor/' "${2}"

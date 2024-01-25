@@ -186,7 +186,8 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
-    android.hardware.radio.deprecated@1.0
+    android.hardware.radio.deprecated@1.0 \
+    libcutils_shim
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
