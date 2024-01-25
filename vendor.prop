@@ -4,6 +4,7 @@ ro.arch=exynos7870
 exynos.ril.modempath=/dev/block/mmcblk0p5
 exynos.ril.nvpath=/efs/
 persist.radio.multisim.config=ss
+ro.vendor.multisim.simslotcount=1
 
 # RILD
 rild.libpath=/system/lib64/libsec-ril.so
