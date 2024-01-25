@@ -56,7 +56,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service.samsung \
     libcamera_metadata_helper \
-    libsensorndkbridge
+    libsensorndkbridge \
+    camera.exynos5
 
 # DRM
 PRODUCT_PACKAGES += \

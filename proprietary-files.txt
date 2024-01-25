@@ -177,7 +177,7 @@ vendor/etc/nxp/LVAZFS_Configuration.txt
 vendor/lib/libbt-vendor.so
 
 # Camera
-lib/hw/camera.exynos7870.so:vendor/lib/hw/camera.exynos7870.so
+lib/hw/camera.exynos7870.so:vendor/lib/hw/camera.vendor.exynos7870.so
 lib/libexynoscamera.so:vendor/lib/libexynoscamera.so
 lib/libexynoscamera3.so:vendor/lib/libexynoscamera3.so
 lib/libhwjpeg.so:vendor/lib/libhwjpeg.so
