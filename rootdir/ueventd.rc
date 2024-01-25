@@ -138,3 +138,12 @@
 
 # Reactivation Lock
 /dev/block/platform/13540000.dwmmc0/by-name/STEADY    0660    system    system
+
+#Mobicore
+/dev/mobicore             0700   system     system
+/dev/mobicore-user        0666   radio      system
+
+# Sensor
+/dev/input/event* 0660 system input
+/sys/devices/virtual/input/input*   enable      0660  system   input
+/sys/devices/virtual/input/input*   poll_delay  0660  system   input
