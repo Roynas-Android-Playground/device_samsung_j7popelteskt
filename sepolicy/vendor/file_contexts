@@ -1,5 +1,6 @@
 /dev/mali0                                            u:object_r:gpu_device:s0
 /dev/s5p-smem                                         u:object_r:s5p_smem_device:s0
+/dev/sec-nfc                                          u:object_r:nfc_device:s0
 
 /cpefs(/.*)?                                          u:object_r:efs_file:s0
 

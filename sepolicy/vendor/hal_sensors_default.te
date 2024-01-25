@@ -1,0 +1,2 @@
+rw_file_recursive(hal_sensors_default, sysfs_input)
+w_file_recursive(hal_sensors_default, sysfs_sensors)

@@ -18,3 +18,4 @@ genfscon sysfs /firmware/devicetree/base/model_info-system_rev                 u
 genfscon sysfs /devices/10510000.hsi2c/i2c-0/0-a066/s2m-rtc/rtc/rtc0           u:object_r:sysfs_rtc:s0
 genfscon sysfs /devices/bluetooth/rfkill                                       u:object_r:sysfs_rfkill:s0
 genfscon sysfs /devices/12c30000.mfc0/video6                                   u:object_r:sysfs_mfc:s0
+genfscon sysfs /devices/12c30000.mfc0/video7                                   u:object_r:sysfs_mfc:s0

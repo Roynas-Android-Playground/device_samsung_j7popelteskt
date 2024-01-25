@@ -1,1 +1,1 @@
-allow mediacodec sysfs_mfc:file r_file_perms;
+r_file_recursive(mediacodec, sysfs_mfc)

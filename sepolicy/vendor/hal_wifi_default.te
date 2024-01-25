@@ -1,0 +1,2 @@
+rw_file_recursive(hal_wifi_default, sysfs_wifi_writable)
+r_file_recursive(hal_wifi_default, wifi_efs_file)
