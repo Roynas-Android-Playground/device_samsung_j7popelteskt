@@ -64,6 +64,9 @@ function blob_fixup() {
 	vendor/lib/mediadrm/libwvdrmengine.so|vendor/lib/libwvhidl.so)
 	    "${PATCHELF}" --replace-needed libprotobuf-cpp-lite.so libprotobuf-cpp-lite-v29.so "${2}"
 	    ;;
+	vendor/lib/libsec-ril.so)
+	    "${PATCHELF}" --replace-needed libprotobuf-cpp-full.so libprotobuf-cpp-full-v29.so "${2}"
+	    ;;
 	lib/libaudioroute.so)
 	    sed -i 's/system/vendor/' "${2}"
 	    ;;
