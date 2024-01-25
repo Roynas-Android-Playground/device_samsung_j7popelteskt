@@ -1,6 +1,6 @@
 cc_library_shared {
     name: "libgpsd_shim",
-    srcs: ["shim_gpsd.c"],
+    srcs: ["gpsd/shim_gpsd.c"],
     vendor: true,
 }
 
@@ -9,7 +9,7 @@ cc_library_shared {
     proprietary: true,
     defaults: ["hidl_defaults"],
     srcs: [
-        "CameraMetadata.cpp",
+        "libcamera_client/CameraMetadata.cpp",
     ],
     cflags: [
         "-Werror",
@@ -23,4 +23,16 @@ cc_library_shared {
         "libcamera_metadata",
     ],
     include_dirs: ["system/media/private/camera/include"],
+}
+
+cc_library {
+    name: "libcutils_shim",
+    shared_libs: [
+        "libcutils",
+    ],
+    srcs: [
+        "libcutils/strdup16to8.cpp",
+        "libcutils/strdup8to16.cpp",
+    ],
+    vendor: true,
 }
