@@ -25,8 +25,8 @@ PRODUCT_SHIPPING_API_LEVEL := 24
 # Audio
 PRODUCT_PACKAGES += \
    android.hardware.audio.service \
-   android.hardware.audio@2.0-impl \
-   android.hardware.audio.effect@2.0-impl \
+   android.hardware.audio@2.0-impl:32 \
+   android.hardware.audio.effect@2.0-impl:32 \
    libtinycompress \
    audio.r_submix.default \
    audio.usb.default \
