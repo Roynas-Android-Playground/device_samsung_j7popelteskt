@@ -213,6 +213,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.3-service.samsung
 
+# Vndservicemanager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
