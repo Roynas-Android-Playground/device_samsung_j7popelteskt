@@ -38,7 +38,7 @@ on post-fs-data
     setprop vold.post_fs_data_done 1
 
 # Magnetic sensor YAS537 lib
-    mkdir /data/system/yas_lib 0770 system system
+    mkdir /data/vendor/yas_lib 0770 system system
 
 # /efs/factory.prop for Dual / Single SIM settings
     chown radio radio /efs/factory.prop
