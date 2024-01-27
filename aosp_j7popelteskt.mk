@@ -8,20 +8,19 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-# Inherit some common TWRP stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 720
+
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from j7popelteskt device
 $(call inherit-product, device/samsung/j7popelteskt/device.mk)
 
 PRODUCT_DEVICE := j7popelteskt
-PRODUCT_NAME := lineage_j7popelteskt
+PRODUCT_NAME := aosp_j7popelteskt
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-J727S
 PRODUCT_MANUFACTURER := samsung
-
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
