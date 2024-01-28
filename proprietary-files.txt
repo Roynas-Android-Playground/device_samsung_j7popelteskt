@@ -281,7 +281,6 @@ vendor/lib/hw/gatekeeper.exynos7870.so
 vendor/lib/hw/keystore.exynos7870.so
 
 # Wifi
-vendor/bin/hw/macloader
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_brcm.rc
 vendor/etc/wifi/.clminfo
