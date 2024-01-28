@@ -1,10 +1,13 @@
 /dev/mali0                                            u:object_r:gpu_device:s0
 /dev/s5p-smem                                         u:object_r:s5p_smem_device:s0
 /dev/sec-nfc                                          u:object_r:nfc_device:s0
+/dev/gnss_ipc                                         u:object_r:vendor_gnss_device:s0
 
 /cpefs(/.*)?                                          u:object_r:efs_file:s0
 
-/data/vendor/yas_lib(/.*)?                            u:object_r:sensors_data_file:s0
+/data/vendor/yas_lib(/.*)?                            u:object_r:vendor_sensors_data_file:s0
+/data/vendor/nfc(/.*)?                                u:object_r:vendor_nfc_data_file:s0
+/data/vendor/mediadrm(/.*)?                           u:object_r:vendor_mediadrm_data_file:s0
 
 (/system)?/vendor/bin/hw/vendor\.samsung\.hardware\.radio\.configsvc@1\.0-service      u:object_r:hal_vendor_radio_configsvc_default_exec:s0
 (/system)?/vendor/bin/hw/android\.hardware\.camera\.provider@2\.5-service\.samsung     u:object_r:hal_camera_default_exec:s0

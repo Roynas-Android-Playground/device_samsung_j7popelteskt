@@ -1,2 +1,3 @@
 rw_file_recursive(hal_sensors_default, sysfs_input)
 w_file_recursive(hal_sensors_default, sysfs_sensors)
+allow hal_sensors_default vendor_sensors_data_file:file rw_file_perms;

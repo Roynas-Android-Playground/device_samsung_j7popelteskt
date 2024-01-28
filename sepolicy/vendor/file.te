@@ -10,4 +10,6 @@ type sysfs_model_info, fs_type, sysfs_type;
 type sysfs_rfkill, fs_type, sysfs_type;
 type sysfs_mfc, fs_type, sysfs_type;
 
-type sensors_data_file, file_type, data_file_type;
+type vendor_mediadrm_data_file, file_type, data_file_type;
+type vendor_sensors_data_file, file_type, data_file_type;
+type vendor_nfc_data_file, file_type, data_file_type;

@@ -1,2 +1,2 @@
-allow vendor_init sensors_data_file:dir create_dir_perms;
+allow vendor_init { vendor_sensors_data_file vendor_nfc_data_file }:dir create_dir_perms;
 allow vendor_init block_device:lnk_file setattr;
