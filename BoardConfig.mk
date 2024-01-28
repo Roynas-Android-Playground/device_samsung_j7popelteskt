@@ -46,7 +46,6 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 TARGET_KERNEL_CONFIG := exynos7870-j7popeltekor_defconfig
