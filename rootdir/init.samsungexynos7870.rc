@@ -40,6 +40,9 @@ on post-fs-data
 # Magnetic sensor YAS537 lib
     mkdir /data/vendor/yas_lib 0770 system system
 
+# Nfc
+    mkdir /data/vendor/nfc 0770 nfc nfc
+
 # /efs/factory.prop for Dual / Single SIM settings
     chown radio radio /efs/factory.prop
     chmod 0600 /efs/factory.prop
