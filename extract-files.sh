@@ -55,9 +55,6 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/bin/hw/gpsd)
-            "${PATCHELF}" --add-needed "libgpsd_shim.so" "${2}"
-            ;;
 	vendor/lib/mediadrm/libwvdrmengine.so|vendor/lib/libwvhidl.so)
 	    "${PATCHELF}" --replace-needed libprotobuf-cpp-lite.so libprotobuf-cpp-lite-v29.so "${2}"
 	    ;;

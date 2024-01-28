@@ -70,10 +70,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl:32 \
     android.hardware.gatekeeper@1.0-service-compat
 
-# GPS
-PRODUCT_PACKAGES += \
-    libgpsd_shim
-
 # Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \

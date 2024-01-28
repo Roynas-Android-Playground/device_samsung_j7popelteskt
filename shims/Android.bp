@@ -1,10 +1,4 @@
 cc_library_shared {
-    name: "libgpsd_shim",
-    srcs: ["gpsd/shim_gpsd.c"],
-    vendor: true,
-}
-
-cc_library_shared {
     name: "libcamera_metadata_helper",
     proprietary: true,
     defaults: ["hidl_defaults"],

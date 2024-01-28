@@ -191,21 +191,22 @@ vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
 
-# Graphics
+# Graphics - From A720SKSU5CUJ2
 vendor/lib/egl/libGLES_mali.so
+vendor/lib64/egl/libGLES_mali.so
 
-# GPS
-lib/vendor.samsung.hardware.gnss@1.0.so:vendor/lib/vendor.samsung.hardware.gnss@1.0.so
+# GPS - From A720SKSU5CUJ2
+lib64/vendor.samsung.hardware.gnss@1.0.so:vendor/lib64/vendor.samsung.hardware.gnss@1.0.so
 vendor/bin/hw/gpsd
 vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service
 vendor/etc/gnss/ca.pem
 vendor/etc/gnss/gps.cfg
 vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc
-vendor/lib/hw/android.hardware.gnss@1.1-impl.so
-vendor/lib/hw/gps.default.so
-vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so
-vendor/lib/libwrappergps.so
+vendor/lib64/hw/android.hardware.gnss@1.1-impl.so
+vendor/lib64/hw/gps.default.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so
+vendor/lib64/libwrappergps.so
 
 # Firmware
 vendor/etc/nfc/sec_s3nrn81_rfreg.bin
@@ -299,6 +300,5 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/lib/libwifi-hal.so
 
 ## XXX Unknown source
-vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/libbt-vendor.so
 vendor/lib64/libwifi-hal.so
