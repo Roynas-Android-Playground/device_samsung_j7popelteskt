@@ -92,6 +92,10 @@ PRODUCT_PACKAGES += \
     libhidltransport_vendor \
     libhwbinder_vendor
 
+# Input
+PRODUCT_PACKAGES += \
+   inputHelper
+
 # Rootdir
 PRODUCT_PACKAGES += \
    fstab.samsungexynos7870 \

@@ -1,0 +1,6 @@
+cc_binary {
+   name: "inputHelper",
+   srcs: ["main.c"],
+   init_rc: ["inputHelper.rc"],
+   system_ext_specific: true,
+}

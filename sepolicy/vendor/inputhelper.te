@@ -1,0 +1,11 @@
+type inputhelper, domain, coredomain;
+type inputhelper_exec, file_type, system_file_type, exec_type;
+init_daemon_domain(inputhelper)
+
+allow inputhelper { input_device uhid_device }:chr_file rw_file_perms;
+allow inputhelper input_device:dir r_dir_perms;
+allow inputhelper { am_exec cmd_exec shell_exec }:file rx_file_perms;
+allow inputhelper activity_service:service_manager find;
+
+binder_call(inputhelper, servicemanager)
+binder_call(inputhelper, system_server)
