@@ -1,4 +1,7 @@
+get_prop(hal_camera_default, exported_camera_prop)
+
+allow hal_camera_default hal_graphics_mapper_hwservice:hwservice_manager find;
+allow hal_camera_default hal_graphics_composer_default:fd use;
 allow hal_camera_default sysfs_camera:dir r_dir_perms;
 allow hal_camera_default sysfs_camera:file rw_file_perms;
-
-get_prop(hal_camera_default, exported_camera_prop)
+allow hal_camera_default vendor_scaler_device:chr_file rw_file_perms;

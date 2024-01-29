@@ -1,1 +1,2 @@
 rw_file_recursive(hal_gatekeeper_default, prov_efs_file)
+allow hal_gatekeeper_default efs_file:dir search;

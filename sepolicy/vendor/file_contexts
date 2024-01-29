@@ -1,5 +1,6 @@
 /dev/mali0                                            u:object_r:gpu_device:s0
 /dev/s5p-smem                                         u:object_r:s5p_smem_device:s0
+/dev/m2m1shot_scaler0                                 u:object_r:vendor_scaler_device:s0
 /dev/sec-nfc                                          u:object_r:nfc_device:s0
 /dev/gnss_ipc                                         u:object_r:vendor_gnss_device:s0
 

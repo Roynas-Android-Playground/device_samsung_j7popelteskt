@@ -9,3 +9,4 @@ allow inputhelper activity_service:service_manager find;
 
 binder_call(inputhelper, servicemanager)
 binder_call(inputhelper, system_server)
+binder_call(system_server, inputhelper)
