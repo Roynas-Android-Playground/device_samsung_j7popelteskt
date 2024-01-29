@@ -67,6 +67,10 @@ function blob_fixup() {
 	lib/libaudioroute.so)
 	    sed -i 's/system/vendor/' "${2}"
 	    ;;
+	lib/hw/audio.primary.exynos7870.so)
+	    "${PATCHELF}" --replace-needed liblog.so libtinyalsa.exynos7870.so "${2}"
+	    "${PATCHELF}" --add-needed liblog.so "${2}"
+	    ;;
 	lib/hw/camera.exynos7870.so)
 	    "${PATCHELF}" --replace-needed libcamera_client.so libcamera_metadata_helper.so "$2"
 	    "${PATCHELF}" --replace-needed libgui.so libgui_vendor.so "$2"
