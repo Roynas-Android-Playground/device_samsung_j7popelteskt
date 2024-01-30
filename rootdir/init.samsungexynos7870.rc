@@ -27,6 +27,7 @@ on init
     symlink /dev/block/platform/13540000.dwmmc0/by-name/PERSISTENT /dev/block/persistent
     symlink /dev/block/platform/13540000.dwmmc0/by-name/STEADY /dev/block/steady
 
+on fs
     mount_all /system/vendor/etc/fstab.samsungexynos7870
 
 on post-fs-data
