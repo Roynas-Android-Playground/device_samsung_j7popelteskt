@@ -277,9 +277,10 @@ vendor/bin/mcDriverDaemon
 vendor/lib/libMcClient.so
 vendor/lib/libMcRegistry.so
 
-# TEE HWModule
-vendor/lib/hw/gatekeeper.exynos7870.so
-vendor/lib/hw/keystore.exynos7870.so
+# TEE HW - From A720SKSU5CUJ2
+vendor/lib64/hw/keystore.exynos7880.so
+vendor/lib64/hw/gatekeeper.exynos7880.so
+vendor/lib64/libMcClient.so
 
 # Wifi
 vendor/etc/init/wifi.rc
