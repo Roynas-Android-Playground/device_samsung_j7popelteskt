@@ -222,6 +222,9 @@ vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_profiles_V1_0.xml
 
+# Power - From A720SKSU5CUJ2
+vendor/lib64/hw/power.universal7880.so
+
 # RIL
 vendor/bin/hw/rild
 vendor/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service

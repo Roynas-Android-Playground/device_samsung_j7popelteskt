@@ -1,6 +1,7 @@
 ro.arch=exynos7870
 ro.hardware.gatekeeper=exynos7880
 ro.hardware.keystore=exynos7880
+ro.hardware.power=exynos7880
 
 # RIL
 exynos.ril.modempath=/dev/block/mmcblk0p5
