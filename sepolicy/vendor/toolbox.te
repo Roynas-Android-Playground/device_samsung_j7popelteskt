@@ -1,0 +1,1 @@
+allow toolbox vendor_zram_block_device:blk_file rw_file_perms;

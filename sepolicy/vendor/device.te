@@ -1,3 +1,4 @@
 type s5p_smem_device, dev_type;
 type vendor_gnss_device, dev_type;
 type vendor_scaler_device, dev_type;
+type vendor_zram_block_device, dev_type;

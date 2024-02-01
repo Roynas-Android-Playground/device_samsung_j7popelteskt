@@ -1,2 +1,4 @@
 r_file_recursive(mediacodec, sysfs_mfc)
 hal_client_domain(mediacodec, hal_power)
+
+allow mediacodec vendor_scaler_device:chr_file rw_file_perms;

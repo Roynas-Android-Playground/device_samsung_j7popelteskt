@@ -1,3 +1,4 @@
 allow init socket_device:sock_file create_file_perms;
 allow init kernel:system module_request;
 allow init efs_file:dir mounton;
+allow init vendor_zram_block_device:blk_file w_file_perms;

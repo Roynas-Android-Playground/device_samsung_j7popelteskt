@@ -17,3 +17,5 @@
 
 /dev/block/platform/13540000.dwmmc0/by-name/boot           /boot        emmc    defaults     defaults
 /dev/block/platform/13540000.dwmmc0/by-name/recovery       /recovery    emmc    defaults     defaults
+
+/dev/block/zram0                                            none    swap    defaults    zramsize=50%
