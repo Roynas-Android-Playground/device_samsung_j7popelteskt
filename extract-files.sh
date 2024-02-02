@@ -63,6 +63,7 @@ function blob_fixup() {
 	    "${PATCHELF}" --add-needed libcutils_shim.so "${2}"
 	    "${PATCHELF}" --replace-needed libsqlite.so libsqlite-v29.so "${2}"
 	    "${PATCHELF}" --replace-needed libxml2.so libxml2-v29.so "${2}"
+	    sed -i 's|/data/misc/radio/preconfiged|/data/vendor/radio/preconfig|' "${2}"
 	    ;;
 	lib/libaudioroute.so)
 	    sed -i 's/system/vendor/' "${2}"

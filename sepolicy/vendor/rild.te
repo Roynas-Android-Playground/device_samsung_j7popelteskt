@@ -1,0 +1,2 @@
+allow rild bin_nv_data_efs_file:file rw_file_perms;
+

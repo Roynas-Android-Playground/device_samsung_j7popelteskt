@@ -44,6 +44,8 @@ on post-fs-data
 # Nfc
     mkdir /data/vendor/nfc 0770 nfc nfc
 
+    mkdir /data/vendor/radio 0770 radio radio
+
 # /efs/factory.prop for Dual / Single SIM settings
     chown radio radio /efs/factory.prop
     chmod 0600 /efs/factory.prop
